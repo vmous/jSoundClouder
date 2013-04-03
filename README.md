@@ -2,7 +2,7 @@
 
 A simple caller class possible for the SoundCloud API.
 
-# Configuration
+## Configuration
 
 In order to function, create an XML property file named *soundclouder.xml* defining the following keys
   * client_id: The id number you recieve after registering the application to SoundCloud 
