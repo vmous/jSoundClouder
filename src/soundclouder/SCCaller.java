@@ -77,7 +77,10 @@ public class SCCaller {
                                 "user[website]", "http://www.gravatar.com/vsmoustakas")
                         .withFile("user[avatar_data]",
                                 new File("/home/billy/Pictures/avatars/light_bulb.jpg")));
-            } catch (IOException ioe) {
+
+                success = true;
+            }
+            catch (IOException ioe) {
                 logger.error("Unable to PUT the request.");
                 ioe.printStackTrace();
             }
