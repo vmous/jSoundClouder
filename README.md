@@ -1,6 +1,6 @@
 # SoundClouder
 
-A simple caller class possible for the SoundCloud API.
+The simplest caller class possible for the SoundCloud API.
 
 ## Configuration
 
